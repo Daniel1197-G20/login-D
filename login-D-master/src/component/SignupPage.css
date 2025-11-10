@@ -1,0 +1,168 @@
+/* SignupPage.css */
+.signup-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left-side {
+  flex: 1;
+  background: linear-gradient(135deg, #00d4aa 0%, #00a085 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+  position: relative;
+}
+
+.left-side::before {
+  content: "CSCS";
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: white;
+}
+
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 32px;
+  max-width: 480px;
+  margin-bottom: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.testimonial-card p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-pic {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 3px solid #ff007a;
+}
+
+.profile strong {
+  font-size: 1.1rem;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.testimonial-footer h3 {
+  font-size: 1.6rem;
+  margin: 24px 0 8px;
+  font-weight: 700;
+}
+
+.testimonial-footer p {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+.right-side {
+  flex: 1;
+  background: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+
+.signup-form {
+  background: #141414;
+  padding: 56px 48px;
+  border-radius: 20px;
+  width: 440px;
+  max-width: 90%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+.signup-form h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 16px;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+small {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.terms {
+  display: flex;
+  gap: 12px;
+  margin: 24px 0;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.terms a {
+  color: #ff007a;
+  text-decoration: underline;
+}
+
+.btn-signup {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(90deg, #00d4aa, #00a085);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btn-signup:hover {
+  background: linear-gradient(90deg, #00b894, #008c70);
+}
+
+.signin-link {
+  text-align: center;
+  margin-top: 28px;
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+.signin-link a {
+  color: #ff007a;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  color: #ff007a;
+}
